@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+        "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+    <tlibversion>1.0</tlibversion>
+    <jspversion>1.1</jspversion>
+    <shortname>testtaglib</shortname>
+    <info>Bibliotheque de test des taglibs</info>
+
+    <tag>
+        <name>mytag</name>
+        <tagclass>web.taglib.DisplayDateTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <info>Tag that displays the current date</info>
+    </tag>
+
+    <tag>
+        <name>readAllPersonne</name>
+        <tagclass>web.taglib.ReadAllPersonneTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <info>Affiche la liste de toutes les personnes dans l'annuaire</info>
+    </tag>
+
+    <tag>
+        <name>readPersonne</name>
+        <tagclass>web.taglib.ReadPersonneTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <info>Affiche les informations de la personne souhaitée</info>
+    </tag>
+
+    <tag>
+        <name>createPersonne</name>
+        <tagclass>web.taglib.CreatePersonneTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <info>Ajoute une personne à l'annuaire</info>
+    </tag>
+
+    <tag>
+        <name>updatePersonne</name>
+        <tagclass>web.taglib.UpdatePersonneTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <info>Modifie les informations d'une personne dans l'annuaire</info>
+    </tag>
+
+    <tag>
+        <name>deletePersonne</name>
+        <tagclass>web.taglib.DeletePersonneTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <info>Supprimer une personne de l'annuaire</info>
+    </tag>
+</taglib>

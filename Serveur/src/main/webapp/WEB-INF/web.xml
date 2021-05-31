@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>Annuaire</display-name>
+
+	<servlet>
+		<servlet-name>Hello</servlet-name>
+		<servlet-class>web.servlet.Hello</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hello</servlet-name>
+		<url-pattern>/bonjour</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReadAllPersonne</servlet-name>
+		<servlet-class>web.servlet.ReadAllPersonne</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadAllPersonne</servlet-name>
+		<url-pattern>/read-all-personne</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReadPersonne</servlet-name>
+		<servlet-class>web.servlet.ReadPersonne</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadPersonne</servlet-name>
+		<url-pattern>/read-personne</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CreatePersonne</servlet-name>
+		<servlet-class>web.servlet.CreatePersonne</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreatePersonne</servlet-name>
+		<url-pattern>/create-personne</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdatePersonne</servlet-name>
+		<servlet-class>web.servlet.UpdatePersonne</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdatePersonne</servlet-name>
+		<url-pattern>/update-personne</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DeletePersonne</servlet-name>
+		<servlet-class>web.servlet.DeletePersonne</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeletePersonne</servlet-name>
+		<url-pattern>/delete-personne</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>web.listener.CreateServletListener</listener-class>
+	</listener>
+</web-app>
