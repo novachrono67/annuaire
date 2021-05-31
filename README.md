@@ -1,4 +1,4 @@
-# annuaire
+# Projet Annuaire
 
 Avant tout je tiens à m'excuser pour la qualité du travail fourni dans ce projet qui n'est pas extravagante. 
 Malgré le fait d'avoir investi de nombreuses heures à essayer de créer un client web fonctionnel je n'ai pas réussi. En fait je n'ai encore jamais développé un client web avec un front.
